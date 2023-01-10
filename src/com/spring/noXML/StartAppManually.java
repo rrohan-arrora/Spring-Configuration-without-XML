@@ -12,6 +12,8 @@ public class StartAppManually {
 		MainClass mc = context.getBean("setBeanClass", MainClass.class);
 		
 		System.out.println(mc.returnDep());
+		System.out.println(mc.getEmail());
+		System.out.println(mc.getPosition());
 		
 		context.close();
 

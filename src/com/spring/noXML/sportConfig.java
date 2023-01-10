@@ -19,7 +19,7 @@ public class sportConfig {
 	//Bean for Main class and inject dependency
 	@Bean
 	public MainClass setBeanClass() {
-		return new MainClass(setBeanDependency());
+		return new MainClass();
 	}
 
 }
